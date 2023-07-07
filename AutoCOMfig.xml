@@ -1,0 +1,10 @@
+<!--
+name: New name the device will be given
+hardwareid: Device HWID, seen from device manager properties
+configuration: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Ports\COMX value: Defines; Bits/s, Data bits, Parity, Stopping Bits and Flux control
+newport: COM port the device will use once configured
+-->
+<Devices>
+      <Device name="Kaba desktop reader 91 08" hardwareid="FTDIBUS\\COMPORT&amp;VID_18D9&amp;PID_0211" configuration="115200,n,8,1 " newport="COM9" />
+      <Device name="Kaba B-Net 91 07" hardwareid="FTDIBUS\\COMPORT&amp;VID_18D9&amp;PID_01A0" configuration="9600,n,8,1 " newport="COM8" />
+</Devices>
